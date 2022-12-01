@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Paredes WebPage</title>
+    <link href="Style.css" rel="Stylesheet">
+</head>
+<body>
+    <h1>My Favorite Movies and Actors</h1>
+    <hr>
+    <div>
+        <img src="gettyimages-1391907030-2048x2048.jpg" alt="Webpage Theme" width="100%">
+	<a href="http://www.amazon.com">Amazon.</a>
+    </div>
+    <hr>
+    <div>
+        <a href="movies.html">Movies</a>
+        <video width="320" height="240" controls> 
+        <source src="VideoSample.mp4" type="video/mp4"> 
+        <p>Your browser does not support the video element.</p> 
+        </video> 
+        <p>The ocean scenery in the video is stunning. You can see the waves rolling in and crashing against the massive rocks.</p>
+    </div>
+    <div>
+        <audio controls> 
+        <source src="AudioSample.mp3" type="audio/mp3"> 
+        <p>Your browser does not support the audio element.</p> 
+        </audio> 
+        <p> The music has a playful rhythm that builds gradually from a slow introduction. There's a picture of what appears to be a concert crowd with their hands in the air.</p>
+    </div>
+    <div>
+        <h2>Movies</h2>
+        <ul>
+            <li>GoodFellas</li>
+            <li>Logan</li>
+            <li>Captain Marvel</li>
+            <li>Free Guy</li>
+            <li>Spiderman No Way Home</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Actors</h2>
+        <ol>
+            <li>Johnny Depp</li>
+            <li>Tom Cruise</li>
+            <li>Mark Wahlberg</li>
+            <li>Ken Jeong</li>
+            <li>Will Smith</li>
+        </ol>
+    </div>
+</body>
+</html>body {
+  background-color: powderblue;
+}
+h1 {
+  color: red;
+}
+h2 {
+  color: white;
+  text-align: center;
+  border-style: double;
+  border-color: blue;
+  background-color: red;
+  width: 200px;
+}
+Page | 13
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: green;
+}
+ol {
+  color: yellow;
+  font-family: cursive;
+}
